@@ -11,6 +11,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 @EnableWebSecurity
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
+	// This is JDBC_AUTH branch.
+	
 	@Override
 	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
 
